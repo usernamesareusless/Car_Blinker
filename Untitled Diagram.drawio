@@ -1,9 +1,224 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T00:09:53.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.8" etag="2Gzjlkc1vpF4b0NGvlyr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T20:52:31.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_Bi3EBiqX60Rm9YSK3zE" version="21.6.8" type="github" pages="2">
   <diagram name="Page-1" id="8R0tuyF706njBNt0rlaV">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <UserObject label="555 wiki&lt;br&gt;" link="https://en.wikipedia.org/wiki/555_timer_IC" id="s4LHHFSYnkr0j9k8ltSt-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="280" y="100" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="1/(.69314718056*(1000+(2*51000))* .000001" tooltip="555 frequency equasion" id="s4LHHFSYnkr0j9k8ltSt-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="280" y="200" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="s4LHHFSYnkr0j9k8ltSt-3" value="Notes:&lt;br&gt;test probes&lt;br&gt;switch power adaptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0Xyd3FkVGQy98CMaZc9x" name="PCB Layout">
+    <mxGraphModel dx="1909" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.217;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-4" target="FIQlfiSb-Bit5ePXrpSp-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379.94" y="625" as="targetPoint" />
+            <mxPoint x="389.94" y="257.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="300" y="258" />
+              <mxPoint x="300" y="625" />
+              <mxPoint x="390" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-4" target="FIQlfiSb-Bit5ePXrpSp-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="395" />
+              <mxPoint x="360" y="395" />
+              <mxPoint x="360" y="22" />
+              <mxPoint x="804" y="22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-4" target="FIQlfiSb-Bit5ePXrpSp-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="338" />
+              <mxPoint x="270" y="762" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-4" target="FIQlfiSb-Bit5ePXrpSp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-4" target="FIQlfiSb-Bit5ePXrpSp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-4" target="FIQlfiSb-Bit5ePXrpSp-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-4" target="FIQlfiSb-Bit5ePXrpSp-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="262" />
+              <mxPoint x="560" y="22" />
+              <mxPoint x="804" y="22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="225" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-6" target="FIQlfiSb-Bit5ePXrpSp-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-6" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-7" target="FIQlfiSb-Bit5ePXrpSp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-7" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="630" y="350" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-8" target="FIQlfiSb-Bit5ePXrpSp-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-8" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="560" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-9" target="FIQlfiSb-Bit5ePXrpSp-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-9" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-11" target="FIQlfiSb-Bit5ePXrpSp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-11" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.potentiometer_2;rotation=-90;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-12" target="FIQlfiSb-Bit5ePXrpSp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-12" target="FIQlfiSb-Bit5ePXrpSp-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-12" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.potentiometer_2;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="660" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-4" target="FIQlfiSb-Bit5ePXrpSp-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="300" />
+              <mxPoint x="380" y="330" />
+              <mxPoint x="540" y="330" />
+              <mxPoint x="540" y="338" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-31" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;fillColor=strokeColor;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.electrical.miscellaneous.monocell_battery;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="750" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-44" target="FIQlfiSb-Bit5ePXrpSp-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-44" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="120" y="870" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-45" target="FIQlfiSb-Bit5ePXrpSp-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-45" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="160" y="870" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-46" target="FIQlfiSb-Bit5ePXrpSp-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="950" />
+              <mxPoint x="210" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-46" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="190" y="870" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-47" target="FIQlfiSb-Bit5ePXrpSp-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-47" target="FIQlfiSb-Bit5ePXrpSp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-47" target="FIQlfiSb-Bit5ePXrpSp-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-47" target="FIQlfiSb-Bit5ePXrpSp-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-47" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.mosfets1.p-channel_mosfet_1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="690" width="95" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FIQlfiSb-Bit5ePXrpSp-51" target="FIQlfiSb-Bit5ePXrpSp-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="990" />
+              <mxPoint x="680" y="990" />
+              <mxPoint x="680" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-51" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.lamp" vertex="1" parent="1">
+          <mxGeometry x="540" y="870" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-57" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1050" as="sourcePoint" />
+            <mxPoint x="450" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-58" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1040" as="sourcePoint" />
+            <mxPoint x="750" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-59" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="850" as="sourcePoint" />
+            <mxPoint x="450" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-60" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1040" as="sourcePoint" />
+            <mxPoint x="450" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIQlfiSb-Bit5ePXrpSp-62" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.singleSwitch;aspect=fixed;elSwitchState=off;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="772.5" y="70" width="75" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
