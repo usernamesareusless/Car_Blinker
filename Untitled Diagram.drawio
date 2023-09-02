@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T15:01:51.752Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8pYFL_Vokz04qVFOnmlk" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-02T16:57:36.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZBNhA7pqGyMvhQ45BFMu" version="21.7.1" type="github" pages="2">
   <diagram name="Page-1" id="8R0tuyF706njBNt0rlaV">
-    <mxGraphModel dx="875" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="555 wiki&lt;br&gt;" link="https://en.wikipedia.org/wiki/555_timer_IC" id="s4LHHFSYnkr0j9k8ltSt-1">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
             <mxGeometry x="280" y="100" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="1/(.69314718056*(1000+(2*51000))* .000001" tooltip="555 frequency equasion" id="s4LHHFSYnkr0j9k8ltSt-2">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
             <mxGeometry x="280" y="200" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="s4LHHFSYnkr0j9k8ltSt-3" value="Notes:&lt;br&gt;test probes&lt;br&gt;switch power adaptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s4LHHFSYnkr0j9k8ltSt-3" value="Notes:&lt;br&gt;test probes&lt;br&gt;switch power adaptor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <UserObject label="https://images.theengineeringprojects.com/image/webp/2018/09/introduction-to-IRF4905.png.webp?ssl=1" link="https://images.theengineeringprojects.com/image/webp/2018/09/introduction-to-IRF4905.png.webp?ssl=1" id="SbAaLp73A2lzNpTVEbcW-3">
-          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="590" y="220" width="560" height="50" as="geometry" />
+        <UserObject label="Mosfet pinout" link="https://images.theengineeringprojects.com/image/webp/2018/09/introduction-to-IRF4905.png.webp?ssl=1" id="iaEZdHjY4uuNuiCuZIsI-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="450" y="100" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
